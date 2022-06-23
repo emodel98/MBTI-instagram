@@ -2,7 +2,7 @@
 
 #include <atomic>
 
-#define TREE_DEPTH 10
+#define TREE_DEPTH 10 //7: 128, 8:256, ...
 #define THREAD_NUM (1<<TREE_DEPTH)
 
 class Barrier {
