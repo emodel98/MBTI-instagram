@@ -3,7 +3,7 @@
 #include <atomic>
 
 #define TREE_DEPTH 10
-#define THREAD_NUM 128
+#define THREAD_NUM (1<<TREE_DEPTH)
 
 class Barrier {
 private:
